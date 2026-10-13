@@ -1,3 +1,14 @@
 **/*.glyphspackage/UIState.plist
 **/*(Autosaved).glyphs
 .DS_Store
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# pixelate_font.py output; finished fonts are copied into src/ by hand
+test_output/
+
+# Pixel-alternates prototype: vendored Python deps and throwaway demo builds
+.codex/pixel-alternates/vendor/
+.codex/pixel-alternates/build/
