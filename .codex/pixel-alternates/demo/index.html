@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Open Runde Pixel Demo</title>
+    <style>
+      @font-face {
+        font-family: "Open Runde Pixel Demo";
+        src: url("../build/OpenRunde-PixelDemo-Regular.otf") format("opentype");
+      }
+
+      :root {
+        --bg: #f3efe6;
+        --fg: #161616;
+        --muted: #6a645a;
+        --card: #fffaf2;
+        --border: #d7cfc2;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: linear-gradient(180deg, #faf6ec 0%, var(--bg) 100%);
+        color: var(--fg);
+        font-family: ui-sans-serif, system-ui, sans-serif;
+      }
+
+      main {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 48px 20px 64px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: 28px;
+        line-height: 1.05;
+      }
+
+      p {
+        margin: 0 0 28px;
+        color: var(--muted);
+        max-width: 60ch;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 18px 18px 22px;
+        margin: 0 0 18px;
+      }
+
+      .label {
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin: 0 0 10px;
+      }
+
+      .specimen {
+        font-family: "Open Runde Pixel Demo", sans-serif;
+        line-height: 1.1;
+        font-size: clamp(28px, 6vw, 72px);
+      }
+
+      .alphabet {
+        font-size: clamp(18px, 3vw, 34px);
+        line-height: 1.35;
+        word-break: break-word;
+      }
+
+      .paragraph {
+        font-size: clamp(16px, 2vw, 26px);
+        line-height: 1.5;
+        max-width: 34ch;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Open Runde Pixel Demo</h1>
+      <p>Full Regular-weight automatic demo with hand-tuned overrides for o, e, r, d, p, n, and u.</p>
+
+      <section class="card">
+        <div class="label">Wordmark</div>
+        <div class="specimen">open runde</div>
+      </section>
+
+      <section class="card">
+        <div class="label">Alphabet</div>
+        <div class="specimen alphabet">abcdefghijklmnopqrstuvwxyz</div>
+        <div class="specimen alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+      </section>
+
+      <section class="card">
+        <div class="label">Numerals</div>
+        <div class="specimen alphabet">0123456789 !?&amp;@#$%+-=</div>
+      </section>
+
+      <section class="card">
+        <div class="label">Paragraph</div>
+        <div class="specimen paragraph">Pixel demos are always rough at first, but this is enough to judge the texture, rhythm, and overall attitude of the Regular weight.</div>
+      </section>
+    </main>
+  </body>
+</html>

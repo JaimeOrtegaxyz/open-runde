@@ -1,0 +1,47 @@
+feature ss01 {
+  sub d by d.pixel;
+  sub e by e.pixel;
+  sub n by n.pixel;
+  sub o by o.pixel;
+  sub p by p.pixel;
+  sub r by r.pixel;
+  sub u by u.pixel;
+} ss01;
+
+feature cv01 {
+  sub o by o.pixel;
+} cv01;
+
+feature cv02 {
+  sub p by p.pixel;
+} cv02;
+
+feature cv03 {
+  sub e by e.pixel;
+} cv03;
+
+feature cv04 {
+  sub n by n.pixel;
+} cv04;
+
+feature cv05 {
+  sub r by r.pixel;
+} cv05;
+
+feature cv06 {
+  sub u by u.pixel;
+} cv06;
+
+feature cv07 {
+  sub d by d.pixel;
+} cv07;
+
+feature salt {
+  sub d from [d.pixel];
+  sub e from [e.pixel];
+  sub n from [n.pixel];
+  sub o from [o.pixel];
+  sub p from [p.pixel];
+  sub r from [r.pixel];
+  sub u from [u.pixel];
+} salt;

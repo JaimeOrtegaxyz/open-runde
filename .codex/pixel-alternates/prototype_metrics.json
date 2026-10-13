@@ -1,0 +1,44 @@
+[
+  {
+    "glyph": "o",
+    "width": "1680",
+    "leftKerningGroup": "c",
+    "rightKerningGroup": "b"
+  },
+  {
+    "glyph": "e",
+    "width": "1640",
+    "leftKerningGroup": "c",
+    "rightKerningGroup": "aturned"
+  },
+  {
+    "glyph": "r",
+    "width": "1048",
+    "leftKerningGroup": "Hsmall",
+    "rightKerningGroup": "r"
+  },
+  {
+    "glyph": "d",
+    "width": "1748",
+    "leftKerningGroup": "c",
+    "rightKerningGroup": "Ereversed"
+  },
+  {
+    "glyph": "p",
+    "width": "1716",
+    "leftKerningGroup": "Hsmall",
+    "rightKerningGroup": "b"
+  },
+  {
+    "glyph": "n",
+    "width": "1648",
+    "leftKerningGroup": "Hsmall",
+    "rightKerningGroup": "Hsmall"
+  },
+  {
+    "glyph": "u",
+    "width": "1636",
+    "leftKerningGroup": "hturned",
+    "rightKerningGroup": "Hwair"
+  }
+]
